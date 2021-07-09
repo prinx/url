@@ -68,7 +68,7 @@ class UrlTest extends TestCase
             'https://test.com/path?action=test&name=url',
             'https://test.com/path/?action=test&name=url',
             'https://test.com/path/?action=test&name=url#fragment',
-            'https://test.com/path/?query=string&action=test&name=url',
+            'https://user:password@test.com:85/path/?query=string&action=test&name=url#fragment',
         ];
 
         foreach ($urls as $url) {
